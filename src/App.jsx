@@ -1,5 +1,3 @@
-import Card from "./components/Card";
-import Footer from "./components/Footer";
 import MainBox from "./components/MainBox";
 
 function App() {
@@ -7,16 +5,14 @@ function App() {
     <>
       <div className="bg-black w-full p-5 rounded-xl">
         <h1 className="text-center text-[25px] font-mono">
-          CONTENTERA ASSIGNMENT
+          <span className="text-[red] text-[40px]">C</span>ONTENTERA{" "}
+          <span className="text-[red] text-[40px]">A</span>SSIGNMENT
         </h1>
       </div>
       <div className="main p-2">
         <div className="main-box">
           <MainBox />
         </div>
-      </div>
-      <div>
-        <Footer />
       </div>
     </>
   );
