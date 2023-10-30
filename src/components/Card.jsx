@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Footer from "./Footer";
 
 const Card = ({ data }) => {
   const [plainHtml, setPlainHtml] = useState("");
