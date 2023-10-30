@@ -10,12 +10,12 @@ const Footer = () => {
             <h1>&copy; Made By Prashant Sharma</h1>
           </div>
           <div>
-            <p className="">Email : prashantp5sharma.1998@gmail.com</p>
+            <p>Email : prashantp5sharma.1998@gmail.com</p>
           </div>
           <div>
             <p>
               Git Repo:{" "}
-              <span className="text-[red] hover:underline">
+              <span className="text-[red] hover:underline transition">
                 <a
                   href="https://github.com/wolf-dagger/contenterra_project"
                   target="_blank"
@@ -24,6 +24,15 @@ const Footer = () => {
                 </a>
               </span>
             </p>
+          </div>
+          <div>
+            <a
+              href="https://prashant-sharma.netlify.app/"
+              target="_blank"
+              className="hover:text-[red] transition"
+            >
+              My Portfolio
+            </a>
           </div>
         </div>
         <div className="flex justify-center mt-5 pb-5">

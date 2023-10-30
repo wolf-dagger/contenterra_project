@@ -32,8 +32,7 @@ const MainBox = () => {
       {isLoading ? (
         <>
           <div className="flex items-center justify-center h-screen">
-            <div className="">
-              {/* Your content goes here */}
+            <div className="">  
               <MoonLoader size={40} color="white" />
             </div>
           </div>
